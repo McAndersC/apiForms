@@ -12,7 +12,7 @@ export const contactFormular = {
 
         e.preventDefault();
     
-        const {name, email, message} = e.currentTarget.elements;
+        const {name, email, message, submitBtn} = e.currentTarget.elements;
         
         let bodyObj = {
             name : name.value,
