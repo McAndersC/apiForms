@@ -11,6 +11,9 @@ if(frontPage) {
     // Initialisere Contact Form
     contactFormular.init();
 
+   
+
+
 }
 
 if(subPage) {

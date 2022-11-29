@@ -13,6 +13,9 @@ export const contactFormular = {
         e.preventDefault();
     
         const {name, email, message, submitBtn} = e.currentTarget.elements;
+
+        let fData = new FormData(e.currentTarget);
+        console.log(fData.get('email'))
         
         let bodyObj = {
             name : name.value,
@@ -70,5 +73,4 @@ export const contactFormular = {
         , 4000);
 
     }
-
 };
