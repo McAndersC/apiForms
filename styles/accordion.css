@@ -12,8 +12,12 @@
     display: block;
 }
 
-.accordion.active .icon{
+.subpage .accordion.active .icon{
     color: red;
+}
+
+.frontpage .accordion.active .icon{
+    color: mediumaquamarine;
 }
 
 .accordion.active .headline{

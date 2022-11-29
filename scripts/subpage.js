@@ -5,7 +5,8 @@ const frontPage = document.querySelector('.frontpage');
 
 if(subPage || frontPage) {
 
-    console.log('Contact Formular Initialized')
+    console.log('Contact Formular Initialized');
+
     // Initialisere Contact Form
     contactFormular.init();
 
