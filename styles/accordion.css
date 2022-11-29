@@ -1,0 +1,25 @@
+
+
+.description {
+    display : none
+}
+
+.accordion.active {
+    
+}
+
+.accordion.active .description{
+    display: block;
+}
+
+.accordion.active .icon{
+    color: red;
+}
+
+.accordion.active .headline{
+    color: green;
+}
+
+.accordion.active .description{
+    font-weight: 800;
+}
